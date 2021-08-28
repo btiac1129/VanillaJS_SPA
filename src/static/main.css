@@ -1,18 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
-  margin: 0;
-  padding: 0;
-  background-color: hsl(200, 150, 20%);
+    margin: 0;
+    padding: 0;
+    background-color: hsl(200, 150, 20%);
 }
 
 footer {
-  width: 100%;
-  min-height: 40rem;
-  background-color: blue;
+    bottom: 0;
+    position: absolute;
 }
 
 main {
-  width: 40px;
-  height: 40px;
-  background-color: purple;
+    width: 40px;
+    height: 40px;
+    background-color: purple;
 }
